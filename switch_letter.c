@@ -8,6 +8,8 @@ int main(int argc, char *argv[]){
 	char old_letter, new_letter;
 
 	setlocale(LC_ALL, "");
+	
+	mem_set(str, 0, 100*sizeof(str[0]))
 
 	printf("Write some string...  ");
 	fgets(str, 100, stdin);
